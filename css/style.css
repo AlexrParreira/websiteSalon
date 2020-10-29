@@ -1,0 +1,402 @@
+/* Estilos Gerais*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FDF7FA;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+}
+
+.btn {
+  border: 3px solid #E2A3C7;
+  padding: 10px 30px;
+  color: #E2A3C7;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+
+}
+
+.btn:hover {
+  color: #FFF;
+  border: 3px solid #FFF;
+}
+
+.btn.btn-preto:hover {
+  color: #000;
+  border: 3px solid #000;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 8px auto;
+}
+
+.subtitulo-interno {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 8px 0;
+}
+
+/* Header */
+
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #E2A3C7;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #FFF;
+}
+
+.header_menu ul li a:hover {
+  color: #FFF;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url("../img/mesa.jpg")no-repeat center;
+  
+  margin-top: 92px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 41px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.quote-externo {
+  max-width: 300px;
+  margin: 0 auto;
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p::before,
+.quote-externo p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #FFF;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+/*introdução interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+  padding-top: 30px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.introducao-interna h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #FFF;
+  margin: 6px auto 10px auto;
+}
+
+/*Produtos*/
+.produtos {
+  padding: 60px 0;
+
+}
+
+.produtos_listas li {
+  background-color: #E2A3C7;
+  align-items: center;
+  text-align: center;
+}
+
+.produtos_listas li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+
+}
+
+.produtos_listas li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000000;
+  margin: 2px auto;
+}
+
+.produtos_listas li p {
+  padding: 10px 20px 20px 20px;
+
+}
+
+.produtos_listas img {
+  padding-left: 50px;
+  align-self: center;
+  width: 200px;
+  height: 140px;
+
+}
+
+.produtos_icone {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.call-to-action {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call-to-action p {
+  margin-bottom: 20px;
+}
+
+/*Portifólio*/
+
+.portifolio {
+  width: 100%;
+  background-color: #000;
+  padding: 40px 0;
+
+}
+
+.portifolio .subtitulo {
+  color: #E2A3C7;
+}
+
+.portifolio .subtitulo::after {
+  background-color: #E2A3C7;
+}
+
+.portifolio-lista li:last-child {
+  margin-top: 20px;
+}
+
+.portifolio .call-to-action p {
+  color: #FFF;
+}
+
+/*Qualidade*/
+
+.qualidade:after {
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 209px;
+  right: 162px;
+  z-index: -1;
+
+}
+
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade_lista {
+  padding-top: 20px;
+}
+
+.qualidade_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+
+}
+
+.qualidade_lista li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000000;
+  margin: 6px auto;
+}
+
+/*Quebra*/
+
+.quebra {
+  width: 100%;
+  height: 220px;
+  background: url(../img/bg-salon.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.quebra .quote-externo {
+  max-width: 400px;
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  background-color: black;
+  color: #FFF;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #E2A3C7;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #E2A3C7;
+  margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+  padding-right: 30px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  ;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer_redes ul li a {
+  border: 3px solid #E2A3C7;
+  padding: 10px;
+  display: inline-block;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #FFF;
+}
+
+.copy {
+  width: 100%;
+  background: #E2A3C7;
+  padding: 20px 0;
+}
