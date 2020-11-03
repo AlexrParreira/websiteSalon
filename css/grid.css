@@ -113,10 +113,10 @@
 	width: 300px;
 }
 
-@media only screen and (min-width: 688px) and (max-width:979px){
+@media only screen and (min-width: 788px) and (max-width:979px){
 	
 	.container {
-		width: 768px;
+		width: 100%;
 
 	}
 	.grid-1 {
@@ -187,7 +187,7 @@
 		width: 236px;
 	}
 }
-@media only screen and (max-width: 687px) {
+@media screen and (max-width: 787px) {
 	.container {
 		width: 300px;
 
