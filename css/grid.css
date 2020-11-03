@@ -187,7 +187,7 @@
 		width: 236px;
 	}
 }
-@media screen and (max-width: 787px) {
+@media  screen and (max-width: 787px) {
 	.container {
 		width: 300px;
 
@@ -209,7 +209,7 @@
 .grid-15,
 .grid-16,
 .grid-1-3 {
-	width: 300px;
+	width: 100%;
 	margin: 0 0 20px;
 	float:none;
 

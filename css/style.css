@@ -80,7 +80,18 @@ img {
 
 /* Header */
 
+label{
+  margin:  0 40px 0 44.5%;
+  font-size: 38px;
+  line-height: 50px;
+  display: none;
+  
+ 
+}
+#toggle{
 
+  display: none;
+}
 .header {
   position: fixed;
   top: 0;

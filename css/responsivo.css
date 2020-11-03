@@ -27,14 +27,12 @@
 	.header{
 		position: relative;
 		padding-bottom:0px;
-	}
-	.header img{
-		margin: 0 auto 10px auto;
 		
 	}
-	.header_menu{
-		text-align: center;
+	.header a img{
+		margin:  0 40px 0 34%;
 	}
+	
 	.header_menu ul li{
 		margin: 5px;
 	}
@@ -54,6 +52,30 @@
 
 	.header_menu ul li a.menu_ativo {
 	border-color: #FFF;
+	  }
+
+	  label{
+		  display: block;
+		  cursor: pointer;
+		  float: left;
+		  
+		  
+	  }
+	  .menu{
+		  text-align: center;
+		  width: 100%;
+		  display: none;
+	  }
+	  .menu li a{
+		  display: block;
+		  margin: 0;
+	  }
+	  #toggle:checked + .menu{
+		  
+		  display: block;
+	  }
+	  #toggle:hover{
+		border: 4px solid #000;
 	  }
 
 	/*Introdução*/
